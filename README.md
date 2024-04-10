@@ -9,7 +9,7 @@
 
 ## Overview
 <p align="center">
-  <img src="https://github.com/Adaxry/Unified_Layer_Skipping/blob/main/figures/overview.pdf" alt="overview" width="800"/>
+  <img src="https://github.com/Adaxry/Unified_Layer_Skipping/blob/main/figures/overview.png" alt="overview" width="600"/>
 </p>
 <p align="center">
   Overview comparisions of serveral related approaches.
