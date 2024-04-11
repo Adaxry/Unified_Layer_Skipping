@@ -16,7 +16,7 @@
 </p>
 
 
-We propose a Unified Layer Skipping strategy for Large Language Models that selects and skips computational layers based on the target speedup ratio, providing stable acceleration, preserving performance, and supporting popular acceleration techniques, thereby outperforming existing dynamic computation methods in both inference performance and actual model throughput. Our pre-print paper is available at [here](https://arxiv.org/abs/2404.06954).
+We propose a Unified Layer Skipping strategy for Large Language Models that selects and skips computational layers based on the target speedup ratio, providing stable acceleration, preserving performance, and supporting popular acceleration techniques (e.g., batch decoding and KV caching). Our pre-print paper is available at [here](https://arxiv.org/abs/2404.06954).
 
 
 ## Requirements
@@ -193,11 +193,13 @@ wait
 ```
 
 
-
-
 ## Experiments
 
 Datas used in our paper can be obtained at [here](https://github.com/Adaxry/Post-Instruction/blob/main/data/README.md).
+The following are our results on the WMT22 test set, tested on a single Nvidia A100-80G machine. Please note that the tokens are the sum of the prefix and output token counts. It can be observed that under the same target speedup ratio, our method can achieve better translation quality and throughput.
+<p align="center">
+  <img src="https://github.com/Adaxry/Unified_Layer_Skipping/blob/main/figures/throughput.png" alt="overview" width="400"/>
+</p>
 
 
 ## Contact
