@@ -196,7 +196,7 @@ wait
 ## Experiments
 
 Datas used in our paper can be obtained at [here](https://github.com/Adaxry/Post-Instruction/blob/main/data/README.md).
-The following are our results on the WMT22 test set, tested on a single Nvidia A100-80G machine. Please note that the tokens are the sum of the prefix and output token counts. It can be observed that under the same target speedup ratio, our method can achieve better translation quality and throughput.
+The following are our results on the WMT22 test set, tested on a single Nvidia A100-80G node. Please note that the number of tokens are counted by the sum of the prefix and output tokens. It can be observed that under the same target speedup ratio, our method can achieve better translation quality and throughput.
 <p align="center">
   <img src="https://github.com/Adaxry/Unified_Layer_Skipping/blob/main/figures/throughput.png" alt="overview" width="400"/>
 </p>
